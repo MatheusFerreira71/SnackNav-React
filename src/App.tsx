@@ -1,8 +1,13 @@
+import Card from './components/Card';
+import Navbar from './components/Navbar';
 import './styles.global.scss';
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Navbar />
+      <Card />
+    </>
   );
 }
 
